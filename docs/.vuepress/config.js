@@ -13,7 +13,7 @@ module.exports = {
       description: 'SAY road map'
     },
     "/fa": {
-      lang: "fa-IR",
+      lang: "فارسی",
   },
   },
   markdown: {
@@ -31,7 +31,6 @@ module.exports = {
     }
   },
   themeConfig: {
-    defaultImage: '/images/social-card.png',
     author: {
       name: 'SAY contributor',
       twitter: '@say-dao'
@@ -51,7 +50,7 @@ module.exports = {
     nextLinks: false,
     prevLinks: false,
     // ui/ux
-    logo: '/images/logo.png',
+    logo: '/fav/android-chrome-512x512.png',
     locales: {
       '/': {
         label: 'English',
@@ -67,19 +66,19 @@ module.exports = {
         },
         sidebar: [
           {
-            title: 'Decentralization',
-            collapsable: false,
-            children: [
-              '/decentralization/ipfs',
-              '/decentralization/filecoin',
-            ]
-          },
-          {
             title: 'How it Works',
             collapsable: false,
             children: [
-              '/how/problem',
+              '/how/structure',
               '/how/under-const',
+            ]
+          },
+          {
+            title: 'Decentralization',
+            collapsable: false,
+            children: [
+              '/decentralization/design',
+              '/decentralization/token-engineering',
             ]
           },
         ]
