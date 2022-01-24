@@ -14,6 +14,17 @@ We are preparing this document to mature a token-economics design we have in our
 - [ ] Token Engineering
 
 
+## Development
 
+### Running Locally
 
- 
+1. `yarn install`
+2. `yarn doc:dev`
+3. Visit http://localhost:8080/
+
+### Build
+
+1. `yarn install`
+2. `yarn doc:build`
+3. Build directory is `docs/.vuepress/dist`
+
