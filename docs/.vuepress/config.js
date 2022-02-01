@@ -79,6 +79,7 @@ module.exports = {
             children: [
               '/decentralization/design',
               '/decentralization/token-engineering',
+              '/decentralization/sign-in-with-ethereum',
             ]
           },
         ]
